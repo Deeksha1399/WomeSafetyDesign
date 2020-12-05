@@ -158,7 +158,7 @@
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/ic_health_and_safety" />
+                    app:srcCompat="@drawable/ic_balance" />
 
                 <TextView
                     android:id="@+id/label_laws_related_to_woman_safety"
@@ -185,7 +185,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        app:fabCradleMargin="10dp">
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="50dp">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_nav_bar"
@@ -197,10 +198,10 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_announcement"
-        app:layout_anchor="@id/bottom_app_bar"
-        android:backgroundTint="@color/bright_pink"/>
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/bright_pink"
+        android:src="@drawable/ic_sos"
+        app:layout_anchor="@id/bottom_app_bar" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
