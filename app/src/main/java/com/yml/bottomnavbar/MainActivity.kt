@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_nav_bar)
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavBar)
 
         bottomNavigationView.background = null
         bottomNavigationView.menu.getItem(2).isEnabled = false
